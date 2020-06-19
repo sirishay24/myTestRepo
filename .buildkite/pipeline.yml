@@ -1,3 +1,7 @@
 steps:
   - label: "Example Test"
     command: echo "Hello!"
+  - label: "Real Tests"
+    command: echo  "javac JavaTest.java"
+    command: javac JavaTest.java
+
