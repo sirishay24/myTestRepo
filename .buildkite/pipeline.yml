@@ -3,5 +3,5 @@ steps:
     command: echo "Hello!"
   - label: "Real Tests"
     command: mvn test
-    parallelism: 2
+    
 
