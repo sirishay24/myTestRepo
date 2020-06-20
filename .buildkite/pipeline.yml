@@ -3,5 +3,5 @@ steps:
     command: echo "Hello!"
   - label: "Real Tests"
     command: echo  "javac JavaTest.java"
-    command: cat /Users/sirishayerrapragada/myTestRepo/.buildkite/JavaTest.java
+    command: javac /Users/sirishayerrapragada/myTestRepo/src/test/JavaTest.java
 
