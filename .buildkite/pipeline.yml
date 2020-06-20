@@ -2,5 +2,5 @@ steps:
   - label: "Example Test"
     command: echo "Hello!"
   - label: "Real Tests"
-    command: javac src/test/JavaTest.java
+    command: mvn test
 
