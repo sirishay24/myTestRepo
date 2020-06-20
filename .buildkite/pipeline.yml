@@ -2,6 +2,5 @@ steps:
   - label: "Example Test"
     command: echo "Hello!"
   - label: "Real Tests"
-    command: echo  "javac JavaTest.java"
-    command: javac /Users/sirishayerrapragada/myTestRepo/src/test/JavaTest.java
+    command: javac src/test/JavaTest.java
 
